@@ -1,0 +1,16 @@
+{
+  "name": "@jcoreio/mqtt-connection-checker",
+  "version": "1.0.0",
+  "description": "Tests whether an MQTT server can do an SSL handshake and accept a username and password",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": "https://github.com/jcoreio/mqtt-connection-checker",
+  "author": "Jason McLaurin",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "mqtt": "^3.0.0"
+  }
+}
